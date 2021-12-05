@@ -5,7 +5,7 @@ import java.math.*;
 import java.util.regex.*;
 
 public class Solution {
-
+// Solution's start
 static int H, B;
 static boolean flag = false;
 
@@ -24,5 +24,14 @@ static{
         System.out.println("java.lang.Exception: Breadth and height must be positive");
     }
 }
+// Solution's End
 
 public static void main(String[] args){
+		if(flag){
+			int area=B*H;
+			System.out.print(area);
+		}
+		
+	}//end of main
+
+}//end of class
